@@ -13579,6 +13579,10 @@
         "title": "UploadFileResponse",
         "description": "Upload file response schema."
       },
+      "langflow__schema__content_types__ErrorContent": {
+        "additionalProperties": true,
+        "type": "object"
+      },
       "langflow__schema__content_types__JSONContent": {
         "additionalProperties": true,
         "type": "object"
@@ -13588,10 +13592,6 @@
         "type": "object"
       },
       "langflow__schema__content_types__TextContent": {
-        "additionalProperties": true,
-        "type": "object"
-      },
-      "langflow__schema__content_types__ToolContent": {
         "additionalProperties": true,
         "type": "object"
       },
@@ -13683,7 +13683,7 @@
         "additionalProperties": true,
         "type": "object"
       },
-      "lfx__schema__content_types__ErrorContent": {
+      "lfx__schema__content_types__ToolContent": {
         "additionalProperties": true,
         "type": "object"
       },
